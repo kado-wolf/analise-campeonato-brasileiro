@@ -1,0 +1,6 @@
+Quantidade de Vitórias = 
+
+CALCULATE(
+    DISTINCTCOUNT(gols_totais[ID]),
+    gols_totais[Vitoria] = 1 
+)

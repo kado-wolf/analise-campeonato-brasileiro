@@ -1,0 +1,7 @@
+Artilheiro = 
+
+VAR TopArtilheiro  = 
+    TOPN(1, SUMMARIZE('campeonato-brasileiro-gols', 'campeonato-brasileiro-gols'[atleta], "Gols", COUNT('campeonato-brasileiro-gols'[Gols])), [Gols], DESC)
+
+RETURN
+    MAXX(TopArtilheiro, 'campeonato-brasileiro-gols'[atleta])

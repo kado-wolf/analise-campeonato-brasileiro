@@ -1,0 +1,11 @@
+Gols_Sofridos_Partida = 
+
+VAR ClubeAtual = 'campeonato-brasileiro-gols'[clube] 
+VAR PartidaAtual = 'campeonato-brasileiro-gols'[partida_id]
+
+RETURN 
+CALCULATE(
+    COUNTROWS('campeonato-brasileiro-gols'),
+    ALLEXCEPT('campeonato-brasileiro-gols', 'campeonato-brasileiro-gols'[partida_id]),
+    'campeonato-brasileiro-gols'[clube] <> ClubeAtual -- Apenas os gols do adversário
+)

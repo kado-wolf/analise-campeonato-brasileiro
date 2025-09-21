@@ -1,0 +1,23 @@
+% de Aproveitamento = 
+
+
+VAR partidas_disputadas = DISTINCTCOUNT(gols_totais[ID])
+VAR pontos_disputados = partidas_disputadas * 3
+
+VAR partidas_vitorias = 
+    CALCULATE(
+        COUNT(gols_totais[ID]),
+        gols_totais[Vitoria] = 1
+    )
+    
+
+VAR pontos_conquistados_vitorias =  partidas_vitorias * 3
+
+VAR partidas_empates = 
+    CALCULATE(
+        COUNT(gols_totais[ID]),
+        gols_totais[Empates] = 1
+    )
+    
+RETURN DIVIDE(pontos_conquistados_vitorias + partidas_empates,pontos_disputados)
+

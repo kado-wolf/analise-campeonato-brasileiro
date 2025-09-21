@@ -1,0 +1,7 @@
+Classico ? = 
+
+SWITCH(
+    TRUE(),
+    campeonato_brasileiro_full[mandante_Estado] = campeonato_brasileiro_full[visitante_Estado],
+    "1","0"
+)

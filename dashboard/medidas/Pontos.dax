@@ -1,0 +1,8 @@
+Pontos = 
+
+SWITCH(
+    TRUE(),
+    gols_totais[Vitoria] = 1,3,
+    gols_totais[Derrotas] = 1,0,
+    gols_totais[Empates] = 1,1
+)

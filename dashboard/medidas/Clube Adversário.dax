@@ -1,0 +1,15 @@
+Clube Adversário 2 = 
+
+VAR PartidaID = 'campeonato-brasileiro-gols'[partida_id]
+VAR ClubeAtual = 'campeonato-brasileiro-gols'[clube]
+
+RETURN
+    CALCULATE(
+        MAX('gols_totais'[Clube Adversário]),
+        FILTER(
+            'gols_totais',
+            'gols_totais'[ID] = PartidaID && 'gols_totais'[Clube Adversário] <> ClubeAtual
+        ),
+        'campeonato-brasileiro-gols'[clube] <> SELECTEDVALUE('campeonato-brasileiro-gols'[clube]
+        )
+    )

@@ -1,6 +1,6 @@
 ## Análise e Dashboard Campeonato Brasileiro (2014 a 2023)
 
-![Dashboard Campeonato Brasileiro](dashboard/imagens/preview.png)
+![Dashboard Campeonato Brasileiro](dashboard/imagens/análise por clube.png)
 
 ## Objetivo do Projeto
 Analisar e entender os principais KPIs do Campeonato Brasileiro de Futebol ao longo do tempo e explorar o desempenho por clubes e jogadores.

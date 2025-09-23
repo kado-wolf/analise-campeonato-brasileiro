@@ -37,7 +37,7 @@ Gol de pênalti.
 Gol contra.
 
 3ª Aba – Análise por Cartões
-<img width="1434" height="795" alt="análise de cartões" src="https://github.com/user-attachments/assets/685822c8-8ad0-4927-858b-0543c732cf4b" />
+<img width="1433" height="786" alt="análise de cartões" src="https://github.com/user-attachments/assets/1182d756-ac3d-48de-8617-c01fbdeef6f2" />
 
 Nesta terceira e última aba, temos uma análise por clube (filtro superior) dos cartões amarelos e vermelhos.
 

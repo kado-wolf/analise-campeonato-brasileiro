@@ -7,7 +7,7 @@ Analisar e entender os principais KPIs do Campeonato Brasileiro de Futebol ao lo
 Na pasta `dashboard/medidas` é possível encontrar as principais medidas criadas em DAX para entender os indicadores.
 
 1ª Aba – Análise por Clube
-<img width="1437" height="799" alt="análise por clube" src="https://github.com/user-attachments/assets/60663d8f-a8a9-4635-851a-e2d6f7cf4e8b" />
+<img width="1421" height="784" alt="análise por clube" src="https://github.com/user-attachments/assets/24f9ae8e-5a34-4af1-8f12-383871728492" />
 
 Nesta aba temos uma visão temporal de gols marcados e sofridos em cada temporada. É obrigatório selecionar um clube no filtro, pois a análise é feita por clube.
 
